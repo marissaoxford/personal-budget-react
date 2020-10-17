@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import Chart from "../Chart/Chart";
 
 function HomePage() {
   return (
@@ -8,7 +9,7 @@ function HomePage() {
         <article className="text-box">
           <h1>Budget Chart</h1>
           <p>
-              <canvas id="myChart" width="400" height="400"></canvas>
+            <Chart/>
           </p>
         </article>
 
